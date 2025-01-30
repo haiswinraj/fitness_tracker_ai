@@ -20,6 +20,7 @@ export default function HomeScreen() {
         {/* <ThemedText type="title">Welcome!</ThemedText> */}
         <HelloWave />
       </ThemedView>
+
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
@@ -36,6 +37,7 @@ export default function HomeScreen() {
           to open developer tools.
         </ThemedText>
       </ThemedView>
+
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 2: Explore</ThemedText>
         <ThemedText>
@@ -43,6 +45,7 @@ export default function HomeScreen() {
           starter app.
         </ThemedText>
       </ThemedView>
+
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
         <ThemedText>
@@ -64,10 +67,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     gap: 8,
   },
+
   stepContainer: {
     gap: 8,
     marginBottom: 8,
   },
+
   reactLogo: {
     height: 178,
     width: 290,
